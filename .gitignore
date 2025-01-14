@@ -1,0 +1,48 @@
+# Node & Environment
+node_modules/
+whatsapp-bot/node_modules/
+.env
+whatsapp-bot/.env
+.DS_Store
+
+# WhatsApp Session Data (CRITICAL PRIVACY)
+whatsapp-bot/bot-data/
+
+# Python Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env/
+
+# Knowledge Base Privacy (Do not leak user note graphs!)
+kb/raw/*.md
+kb/wiki/*.md
+kb/wiki/concepts/*.md
+kb/wiki/synthesis/*.md
+kb/wiki/log.md
+kb/_index/*
+kb/reports/*
+kb/queries-*
+
+# Explicitly keep the folder layout for Git clones
+!kb/raw/.gitkeep
+!kb/wiki/.gitkeep
+!kb/wiki/concepts/.gitkeep
+!kb/wiki/synthesis/.gitkeep
+!kb/reports/.gitkeep
+!kb/_index/.gitkeep
+
+# Ignore unrelated local workspaces
+animated-map-mvp/
+figma-output/
+learning-packs/
+semantic-map-mvp/
+skills/
+README-ai-to-figma.md
+ai_to_figma_converter.py
+_secret_auth_.json
+.venv/
+.wwebjs_cache/
+*.pdf
+*.PDF
